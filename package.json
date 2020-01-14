@@ -1,0 +1,29 @@
+{
+  "name": "fastify-request-language",
+  "version": "1.0.0",
+  "description": "A middleware to attach language to request by parsing Accept-Language header",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gradeup/fastify-request-language.git"
+  },
+  "keywords": [
+    "i18n",
+    "http",
+    "fastify",
+    "accept-language"
+  ],
+  "author": "codehimanshu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gradeup/fastify-request-language/issues"
+  },
+  "homepage": "https://github.com/gradeup/fastify-request-language",
+  "dependencies": {
+    "accept-language": "^3.0.18",
+    "bcp47": "^1.1.2"
+  }
+}
