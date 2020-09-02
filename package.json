@@ -4,7 +4,7 @@
   "description": "A middleware to attach language to request by parsing Accept-Language header",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo && tap test.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,12 @@
   "homepage": "https://github.com/gradeup/fastify-request-language",
   "dependencies": {
     "accept-language": "^3.0.18",
-    "bcp47": "^1.1.2"
+    "bcp47": "^1.1.2",
+    "fastify-plugin": "^2.3.3"
+  },
+  "devDependencies": {
+    "fastify": "^3.3.0",
+    "tap": "^14.10.8",
+    "xo": "^0.33.1"
   }
 }
