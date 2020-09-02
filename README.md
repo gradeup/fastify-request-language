@@ -9,7 +9,7 @@ Adds language to [the Fastify `request` object](https://www.fastify.io/docs/mast
 - fastify >= 3
 
 ## Install
-```sh npm install fastify-request-language```
+```npm install fastify-request-language```
 
 ## Usage 
 ```js
