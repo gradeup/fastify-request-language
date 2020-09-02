@@ -1,6 +1,6 @@
 {
   "name": "fastify-request-language",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A middleware to attach language to request by parsing Accept-Language header",
   "main": "index.js",
   "scripts": {
